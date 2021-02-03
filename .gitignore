@@ -1,0 +1,7 @@
+# System
+*.DS_Store
+
+# Text files
+*.txt
+*.out
+*.bak
