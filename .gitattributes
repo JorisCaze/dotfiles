@@ -4,12 +4,6 @@
 
 # Reminder: For compatibility, Git convention default line endings for object database must be LF.
 
-# I would recommend to set 'git config --global core.autocrlf = true' to have CRLF -> LF when writing to object database 
-# and LF -> CRFL when files are written out from object database. This setting with exception for specific files (see below)
-# allows you to avoid line endings problems with Git on Windows and Windows Subsystem for Linux (WSL). For Unix system it will 
-# not cause any issues.
-# You have to do it in SmartGit user profile and also in WSL. 
-
 # Detect all text files and convert CRLF to LF when writing to object database.
 * text=auto
 
