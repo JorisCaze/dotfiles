@@ -1,4 +1,24 @@
 {
+    "editor.minimap.enabled": false,
+
+    "window.zoomLevel": 0,
+
+    "explorer.confirmDragAndDrop": false,
+    
+    // Easy access to functions/class with drop down menu
+    "breadcrumbs.enabled": true,
+    
+    // To keep track of length of line
+    "editor.rulers": [
+        90
+    ],
+
+    // New file on startup
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Color theme
+    "workbench.colorTheme": "Monokai",
+
     // Hide files in editor
     "files.exclude": {
       "**/*.o": true
