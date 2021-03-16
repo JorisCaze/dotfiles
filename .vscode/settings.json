@@ -33,6 +33,9 @@
     // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
     "editor.detectIndentation": false,
 
-    // New files are set with LF line ending (Unix style)
+    // New files line endings 
+    // LF: Unix style
     "files.eol": "\n"
+    //CRLF: Windows stule
+    // "files.eol": "\r\n"
 }
