@@ -1,3 +1,3 @@
-# Setup
+# Dotfiles
 
-This repo. contains configuration files to setup my environment.
+This repository contains configuration files to setup my environment.

@@ -1,0 +1,7 @@
+[user]
+	name = JorisCaze
+	email = joris.caze@gmail.com
+[core]
+	filemode = false
+[format]
+	pretty = oneline

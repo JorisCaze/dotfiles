@@ -2,6 +2,6 @@
 *.DS_Store
 
 # Text files
-# *.txt # kept for git examples
+*.txt
 *.out
 *.bak
