@@ -1,21 +1,21 @@
 # My bashrc configuration
-# This must be sourced in .bashrc
+# This file must be sourced in .bashrc
 
 # Alias definitions
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.bashrc.d/.bash_aliases ]; then
+    . ~/.bashrc.d/.bash_aliases
 fi
 
 # Function definitions
-if [ -f ~/.bash_functions ]; then
-	. ~/.bash_functions
+if [ -f ~/.bashrc.d/.bash_functions ]; then
+	. ~/.bashrc.d/.bash_functions
 fi
 
 # git branch display
-if [ -f ~/.bash_git ]; then
-	. ~/.bash_git
+if [ -f ~/.bashrc.d/.bash_git ]; then
+	. ~/.bashrc.d/.bash_git
+	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\]\$ '
 fi
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\]\$ '
 
 # Add bin folder to PATH environment variable to allow script use 
 if [ -d ~/bin ]; then
