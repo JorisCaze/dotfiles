@@ -1,10 +1,3 @@
-# Quick paths
-alias cd-windows="cd /mnt/c/Users/Joris/"
-alias cd-ecogen-env="cd ~/ecogen-env/"
-
-# Tools
-alias weather="curl wttr.in"
-
 # Shortcuts
 alias ll="ls -alF"
 alias ..="cd .."

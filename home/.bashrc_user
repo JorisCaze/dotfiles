@@ -1,0 +1,34 @@
+# My bashrc configuration
+# This must be sourced in .bashrc
+
+# Alias definitions
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# Function definitions
+if [ -f ~/.bash_functions ]; then
+	. ~/.bash_functions
+fi
+
+# git branch display
+if [ -f ~/.bash_git ]; then
+	. ~/.bash_git
+fi
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\]\$ '
+
+# Add bin folder to PATH environment variable to allow script use 
+if [ -d ~/bin ]; then
+	PATH=$PATH:~/bin
+fi
+
+# Allow display screen on x server
+# export DISPLAY=:0
+
+# Force dot decimal sperator
+export LC_NUMERIC="en_US.UTF-8"
+
+# Personnal environment variables
+# For WSL
+# WIN=/mnt/c/Users/Joris/
+
