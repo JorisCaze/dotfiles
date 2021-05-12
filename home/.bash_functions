@@ -15,3 +15,9 @@ get-size()
 {
 	du -h $1 | tail -n 1
 }
+
+# Display last lines of a file
+cail()
+{
+	cat $1 | tail -n 20
+}
