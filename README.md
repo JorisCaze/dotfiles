@@ -44,10 +44,13 @@ To install all the configuration files, you can run the script `deploy.sh`
 $ ./deploy.sh
 ```
 
+Configuration files are created using symbolic link to ease the source control and later modifications. 
+A backup of previous dotfiles is stored into the folder *dotfiles_backup*.
+
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 **Disclaimer:** All the contents given in this repository is provided "as-is" without any guarantee on the impact on your system/code. 
-Be aware that using anything in these notes is only based on your responsability.
+Be aware that using anything from this repository is only based on your responsability.
