@@ -3,7 +3,6 @@ alias ll="ls -alF"
 alias ..="cd .."
 alias ...="cd ../.."
 alias q="exit"
-alias lds="du -h --max-depth=1 ." # (l)ist (d)isk (s)ize of current folder
 
 # Git
 alias git-log="git log --graph --oneline --decorate --all"
@@ -15,4 +14,4 @@ alias ssh-port="echo 'ssh port forwarding running...'; ssh -f -N -L localhost:11
 alias mpifix="sudo bash -c 'echo 0 > /proc/sys/kernel/yama/ptrace_scope'"
 
 # Display personnal bash functions
-alias functions='cat /home/joris/.bash_functions | grep "#"'
+alias functions='cat ~/.bashrc.d/.bash_functions | grep "#"'

@@ -9,15 +9,3 @@ run-ssh-agent()
                 ssh-add /home/joris/.ssh/key_joris
         fi
 }
-
-# Get size of a file/folder: get-size
-get-size()
-{
-	du -h $1 | tail -n 1
-}
-
-# Display last lines of a file
-cail()
-{
-	cat $1 | tail -n 20
-}

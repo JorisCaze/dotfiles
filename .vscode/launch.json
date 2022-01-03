@@ -9,9 +9,8 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/ECOGEN",
-      "args": ["/mnt/c/Users/Joris/Documents/Codes/ecogen_env/test-cases-joris/"],
       "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/",
       "environment": [],
       "console": "externalTerminal",
       "MIMode": "gdb",
@@ -25,3 +24,4 @@
     }
   ]
 }
+
