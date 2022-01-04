@@ -1,41 +1,50 @@
 {
-    "editor.minimap.enabled": false,
+  // General
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.untitled.hint": "hidden",
 
-    "window.zoomLevel": 0,
+  // Design
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
 
-    "explorer.confirmDragAndDrop": false,
-    
-    // Easy access to functions/class with drop down menu
-    "breadcrumbs.enabled": true,
-    
-    // To keep track of length of line
-    "editor.rulers": [
-        90
-    ],
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  
+  // Easy access to functions/class with drop down menu
+  "breadcrumbs.enabled": true,
+  
+  // Keep track of length of line
+  "editor.rulers": [ 90 ],
 
-    // New file on startup
-    "workbench.startupEditor": "newUntitledFile",
+  // New file on startup
+  "workbench.startupEditor": "newUntitledFile",
 
-    // Color theme
-    "workbench.colorTheme": "Monokai",
+  // Color theme
+  "workbench.colorTheme": "Monokai",
 
-    // Hide files in editor
-    "files.exclude": {
-      "**/*.o": true
-    },
+  // Terminal font
+  "terminal.integrated.fontFamily": "FiraCode NF",
 
-    // The number of spaces a tab is equal to.
-    "editor.tabSize": 2,
+  // Hide files in editor
+  "files.exclude": {
+    "**/*.o": true
+  },
 
-    // Insert spaces when pressing Tab.
-    "editor.insertSpaces": true,
+  // The number of spaces a tab is equal to.
+  "editor.tabSize": 2,
 
-    // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
-    "editor.detectIndentation": false,
+  // Insert spaces when pressing Tab.
+  "editor.insertSpaces": true,
 
-    // New files line endings 
-    // LF: Unix style
-    "files.eol": "\n"
-    //CRLF: Windows stule
-    // "files.eol": "\r\n"
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": false,
+
+  // New files are set with LF line endings (Unix style) or CRLF (Windows)
+  "files.eol": "\n",
+  // "files.eol": "\r\n",
+
+  // Python paths
+  "python.pythonPath": "/usr/bin/python3",
+  "python.defaultInterpreterPath": "/usr/bin/python3"
 }

@@ -86,6 +86,7 @@ mkdir -p ~/.config
 mkdir -p ~/dotfiles_backup/.config
 cd .config/
 curr_dir=$(pwd)
+# General config files
 for file in *; 
 do 
   if [ -f ~/.config/$file ]; then
@@ -94,4 +95,14 @@ do
   fi
   ln -s $curr_dir/$file ~/.config/$file
 done
+# VS Code specific config file
+cd ../../.vscode
+curr_dir=$(pwd)
+mkdir -p ~/.config/Code/User
+if [ -f ~/.config/Code/User/settings.json ]; then
+  mkdir -p ~/dotfiles_backup/.vscode
+  cp ~/.config/Code/User/settings.json ~/dotfiles_backup/.vscode/
+  rm ~/.config/Code/User/settings.json
+fi
+ln -s $curr_dir/settings.json ~/.config/Code/User/settings.json
 echo 'Done.'
