@@ -81,7 +81,7 @@ do
   fi; 
 done
 
-# Config files
+# Automatic config files installation
 mkdir -p ~/.config
 mkdir -p ~/dotfiles_backup/.config
 cd .config/
@@ -105,4 +105,8 @@ if [ -f ~/.config/Code/User/settings.json ]; then
   rm ~/.config/Code/User/settings.json
 fi
 ln -s $curr_dir/settings.json ~/.config/Code/User/settings.json
+
+# Manual installation of config files
+echo 'Note that some config files located in home/config-man require manual installation.'
+
 echo 'Done.'

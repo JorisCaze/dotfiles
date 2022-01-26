@@ -1,0 +1,31 @@
+{
+  // This file contains my personnal settings for Sublime Text 3
+  
+  "ignored_packages":
+  [
+    "Vintage",
+  ],
+
+  "word_wrap": "false",
+  
+  "font_size": 10,
+
+  // The number of spaces a tab is considered equal to
+  "tab_size": 2,
+
+  // Set to true to insert spaces when tab is pressed
+  "translate_tabs_to_spaces": true,
+
+  // Set to false to disable detection of tabs vs. spaces on load
+  "detect_indentation": false,
+
+  // Calculates indentation automatically when pressing enter
+  "auto_indent": true,
+
+  // Makes auto indent a little smarter, e.g., by indenting the next line
+  // after an if statement in C. Requires auto_indent to be enabled.
+  "smart_indent": true,
+
+  // Characters that are considered to separate words
+  "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+}
